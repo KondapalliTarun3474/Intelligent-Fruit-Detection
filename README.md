@@ -2,7 +2,7 @@
 
 # Fruit Detection and Assistance for the Visually Impaired
 
-[Download all project files from Google Drive]((https://drive.google.com/drive/folders/1A-d76iUM-7fFsvNVw66uvY0s1mMz7atz?usp=sharing)) *(Due to large file sizes, the complete dataset, model, and other assets can be downloaded from this link.)*
+[Download all project files from Google Drive]([https://drive.google.com/drive/folders/1A-d76iUM-7fFsvNVw66uvY0s1mMz7atz?usp=sharing]) *(Due to large file sizes, the complete dataset, model, and other assets can be downloaded from this link.)*
 
 This project leverages object detection to count and identify fruits using camera input, aimed at assisting visually impaired individuals in grocery stores. The application integrates a TensorFlow-Keras model for fruit detection, MediaPipe's hand-tracking for gesture recognition, and generative AI for providing additional assistance and instructions. The user interacts with the system via voice commands, and the app responds with text-to-speech (TTS) feedback.
 
