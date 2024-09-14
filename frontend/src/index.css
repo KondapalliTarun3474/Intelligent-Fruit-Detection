@@ -1,0 +1,130 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #000000;
+  }
+  
+  .header, .footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .header-label {
+    border: #2f7708 solid 5px;
+    border-radius: 16px;
+    margin: 5px;
+    padding: 8px;
+  }
+
+  .header h1 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header-image {
+    width: 375px;
+    height: auto;
+  }
+  
+  .header-titles {
+    text-align: right;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  
+  .title-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    padding: 8px;
+    background-color: #e3f2fd;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 20px; /* Larger text size */
+  }
+  
+  .content-box {
+    display: flex;
+    justify-content: space-between;
+  }
+    
+  .camera-section, .fruits-section {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .camera-title {
+    background-color: #50e601;
+    color: #000000;
+    width: 100px;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .fruits-title {
+    background-color: #1b4f0f;
+    color: #FFFFFF;
+    width: 200px;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .camera-preview {
+    border: 5px solid #50e601;
+    border-radius: 16px;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+  }
+  
+  .fruits-section {
+    padding-left: 40px;
+  }
+  
+  .fruits-list {
+    list-style-type: none;
+    color: #FFFFFF;
+    padding: 0;
+  }
+  
+  .fruits-list li {
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+  
+  .footer {
+    margin-top: auto;
+  }
+  
