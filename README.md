@@ -161,14 +161,4 @@ The app will be available at `http://localhost:3000`.
 
 ---
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-### Contact
-If you have any questions or issues with the project, please reach out at [your.email@example.com].
-
----
-
+Team Tootie Frootie - Colossus Hackathon 2024
