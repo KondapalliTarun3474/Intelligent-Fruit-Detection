@@ -175,3 +175,7 @@ The app will be available at `http://localhost:3000`.
 ---
 
 Team Tootie Frootie - Colossus Hackathon 2024
+- Tahir Mohammed Khadarabad
+- Tarun Kondapalli Srivatsa
+- Tadikonda Venkata Sai Chaitanya
+- Swaroop A Ram Rayala
