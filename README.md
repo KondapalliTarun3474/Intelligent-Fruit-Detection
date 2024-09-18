@@ -13,6 +13,7 @@ This project leverages object detection to count and identify fruits using camer
 - [Folder Structure](#folder-structure)
   - [Backend](#backend)
   - [Frontend](#frontend)
+  - [Other](#other)
   - [MyEnv](#myenv)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
@@ -80,6 +81,18 @@ The frontend folder contains the UI components and static assets for rendering t
     - *Header*: The top navigation and title of the app.
     - *MainContent*: The core content area where the video feed and fruit detection output are displayed.
     - *VideoPlayer*: Component for displaying the camera feed and interacting with the backend for fruit detection.
+
+### Other
+The other folder contains alternative files to run the program.
+
+- **`HandTrackingModule`**: Implements hand gesture recognition using MediaPipe and OpenCV to track user gestures and interact with the system.
+- **`OpenCV_Streamlit`**: Implements the entire program in Python, using streamlit for the front-end.
+  To run:
+  ```bash
+  streamlit run OpenCV_Streamlit.py
+  ```
+- **`FruitRecognition_DeepLearningModel`**: Trains and builds a model using Tensorflow & Keras using deep learning methods that classifies fruits.
+- **`Test_DeepLearningModel`**: Used to test the model built with deep learning.
 
 ### MyEnv
 This folder contains miscellaneous environment dependencies required to run the app smoothly. You might find virtual environment configuration files here, ensuring the correct versions of Python and dependencies are used.
